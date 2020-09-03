@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
     s.authors      = {'niuyao' => '501396574@qq.com'}
     s.platform     = :ios, '10.0'
     s.source       = {:git => 'https://github.com/niuniuyaoyao/cocoapodTest.git', :tag => s.version}
-    s.source_files = 'Login/**/*.{h,m}'
+    s.source_files = 'Login/*.{h,m}'
     s.requires_arc = true
 end
