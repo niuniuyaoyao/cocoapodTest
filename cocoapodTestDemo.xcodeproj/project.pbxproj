@@ -11,11 +11,12 @@
 		4CDE7CB324FFA32900F5DC0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE7CB224FFA32900F5DC0B /* ViewController.m */; };
 		4CDE7CB624FFA32900F5DC0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDE7CB424FFA32900F5DC0B /* Main.storyboard */; };
 		4CDE7CB824FFA32B00F5DC0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CDE7CB724FFA32B00F5DC0B /* Assets.xcassets */; };
-		4CDE7CBB24FFA32B00F5DC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDE7CB924FFA32B00F5DC0B /* LaunchScreen.storyboard */; };
 		4CDE7CBE24FFA32B00F5DC0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE7CBD24FFA32B00F5DC0B /* main.m */; };
 		4CDE7CC824FFA32B00F5DC0B /* cocoapodTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE7CC724FFA32B00F5DC0B /* cocoapodTestDemoTests.m */; };
 		4CDE7CD324FFA32B00F5DC0B /* cocoapodTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE7CD224FFA32B00F5DC0B /* cocoapodTestDemoUITests.m */; };
 		4CDE7CE424FFA39800F5DC0B /* UIViewController+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE7CE324FFA39800F5DC0B /* UIViewController+Login.m */; };
+		4CDE7D282500977C00F5DC0B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CDE7D262500977C00F5DC0B /* SceneDelegate.m */; };
+		4CDE7D2B250097DB00F5DC0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDE7D29250097DB00F5DC0B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,6 @@
 		4CDE7CB224FFA32900F5DC0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4CDE7CB524FFA32900F5DC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CDE7CB724FFA32B00F5DC0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4CDE7CBA24FFA32B00F5DC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CDE7CBC24FFA32B00F5DC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CDE7CBD24FFA32B00F5DC0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CDE7CC324FFA32B00F5DC0B /* cocoapodTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cocoapodTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +54,9 @@
 		4CDE7CD424FFA32B00F5DC0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CDE7CE224FFA39800F5DC0B /* UIViewController+Login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Login.h"; sourceTree = "<group>"; };
 		4CDE7CE324FFA39800F5DC0B /* UIViewController+Login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Login.m"; sourceTree = "<group>"; };
+		4CDE7D262500977C00F5DC0B /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4CDE7D272500977C00F5DC0B /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4CDE7D2A250097DB00F5DC0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +108,15 @@
 		4CDE7CAA24FFA32900F5DC0B /* cocoapodTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4CDE7D272500977C00F5DC0B /* SceneDelegate.h */,
+				4CDE7D262500977C00F5DC0B /* SceneDelegate.m */,
 				4CDE7CAB24FFA32900F5DC0B /* AppDelegate.h */,
 				4CDE7CAC24FFA32900F5DC0B /* AppDelegate.m */,
 				4CDE7CB124FFA32900F5DC0B /* ViewController.h */,
 				4CDE7CB224FFA32900F5DC0B /* ViewController.m */,
 				4CDE7CB424FFA32900F5DC0B /* Main.storyboard */,
+				4CDE7D29250097DB00F5DC0B /* LaunchScreen.storyboard */,
 				4CDE7CB724FFA32B00F5DC0B /* Assets.xcassets */,
-				4CDE7CB924FFA32B00F5DC0B /* LaunchScreen.storyboard */,
 				4CDE7CBC24FFA32B00F5DC0B /* Info.plist */,
 				4CDE7CBD24FFA32B00F5DC0B /* main.m */,
 			);
@@ -248,7 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDE7CBB24FFA32B00F5DC0B /* LaunchScreen.storyboard in Resources */,
+				4CDE7D2B250097DB00F5DC0B /* LaunchScreen.storyboard in Resources */,
 				4CDE7CB824FFA32B00F5DC0B /* Assets.xcassets in Resources */,
 				4CDE7CB624FFA32900F5DC0B /* Main.storyboard in Resources */,
 			);
@@ -277,6 +282,7 @@
 			files = (
 				4CDE7CE424FFA39800F5DC0B /* UIViewController+Login.m in Sources */,
 				4CDE7CB324FFA32900F5DC0B /* ViewController.m in Sources */,
+				4CDE7D282500977C00F5DC0B /* SceneDelegate.m in Sources */,
 				4CDE7CAD24FFA32900F5DC0B /* AppDelegate.m in Sources */,
 				4CDE7CBE24FFA32B00F5DC0B /* main.m in Sources */,
 			);
@@ -322,10 +328,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4CDE7CB924FFA32B00F5DC0B /* LaunchScreen.storyboard */ = {
+		4CDE7D29250097DB00F5DC0B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4CDE7CBA24FFA32B00F5DC0B /* Base */,
+				4CDE7D2A250097DB00F5DC0B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";

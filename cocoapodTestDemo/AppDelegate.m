@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  cocoapodTestDemo
 //
-//  Created by niuyao on 2020/9/2.
+//  Created by niuyao on 2020/9/3.
 //  Copyright © 2020 joymates. All rights reserved.
 //
 
@@ -14,6 +14,7 @@
 
 @implementation AppDelegate
 
+@synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SceneDelegate.h
 //  cocoapodTestDemo
 //
 //  Created by niuyao on 2020/9/3.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
 
+@property (strong, nonatomic) UIWindow * window;
 
 @end
 
