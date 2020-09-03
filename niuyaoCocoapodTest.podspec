@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'niuyaoCocoapodTest'
-    s.version      = '0.0.4'
+    s.version      = '0.0.5'
     s.summary      = 'An easy way to use LoginView'
     s.homepage     = 'https://github.com/niuniuyaoyao/cocoapodTest'
     s.description  = 'An easy way to user LoginView, you can easy user it'
@@ -10,11 +10,6 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/niuniuyaoyao/cocoapodTest.git', :tag => s.version}
     s.requires_arc = true
     s.resource     = 'Login/cocoapodTest.bundle'
-    
-    s.default_subspec = 'login'
-    
-    s.subspec 'login' do |ss|
-        ss.source_files = 'Login/*.{h,m}'
-    end
+    s.source_files = 'Login/*.{h,m}'
     
 end
